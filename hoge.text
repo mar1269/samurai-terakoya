@@ -1,0 +1,11 @@
+#変数を使った四則演算
+
+jyo_hen = 10#上辺センチメートル
+ka_hen = 20#下辺センチメートル
+takasa = 5#高さセンチメートル
+tanni ="㎠"
+
+
+menseki = ((jyo_hen + ka_hen) * takasa) / 2
+
+print(str(menseki) + tanni)
